@@ -31,14 +31,60 @@ let h3=h2.getElementById("style");
 
 
 
-let h1=document.getElementById("iframe");
+function copy_js(){
+    let content=document.getElementById("area3").value;
+    return content;
+}
+
+
+function js(){
+    let h1=document.getElementById("iframe");
 let h2=h1.contentDocument;
-let h3=h2.getElementById("style");
+let h3=h2.createElement("script");
+    if(h3){
+    h3.innerHTML=copy_js();
+     h2.body.appendChild(h3); 
+    }
+ 
+}
+
+
+
+
+// function js(){
+//     let iframe = document.getElementById("iframe");
+//     let iframeDoc = iframe.contentDocument || iframe.contentWindow.document; // Ensure compatibility
+
+//     // Create a new <script> element
+//     let script = iframeDoc.createElement("script");
+    
+//     // Get the JavaScript content from the textarea
+//     script.innerHTML = copy_js();
+
+//     // Append the script to the iframe's document body (or head)
+//     iframeDoc.body.appendChild(script); // You can also append it to the head if needed
+// }
+
+
+
 
 
 
 function run(){
     html();
     css();
+    js();
 }
-document.getElementById("btn").addEventListener("click",run);
+
+
+
+
+// document.getElementById("btn").addEventListener("click",run);
+
+
+
+function autoCall() {
+   run();
+}
+
+setInterval(autoCall, 1000);
