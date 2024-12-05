@@ -1,0 +1,36 @@
+body{
+    background-color: aqua;
+}
+
+.container{
+    display:grid;
+    width:100%;
+    height:50vh;
+    background-color: aquamarine;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr .1fr;
+    justify-content: center;
+
+}
+.main{
+    display:block;
+    align-items: center;
+}
+
+#btn{
+    justify-self: center;
+    grid-column-start: 2;
+}
+
+.b1{
+    background-color: rgb(199, 211, 221);
+    border:2px solid black;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+textarea{
+    width:90%;
+    height: 75%;
+}
