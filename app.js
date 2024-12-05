@@ -87,4 +87,4 @@ function autoCall() {
    run();
 }
 
-setInterval(autoCall, 1000);
+setInterval(autoCall, 4000);
