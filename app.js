@@ -79,12 +79,12 @@ function run(){
 
 
 
-// document.getElementById("btn").addEventListener("click",run);
+document.getElementById("btn").addEventListener("click",run);
 
 
 
-function autoCall() {
-   run();
-}
+// function autoCall() {
+//    run();
+// }
 
-setInterval(autoCall, 4000);
+// setInterval(autoCall, 40000);
