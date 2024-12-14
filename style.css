@@ -134,3 +134,30 @@ textarea{
     padding: 10px;
     background-color: #08b419e6;
 }
+
+.lbtn{
+  height:80%;
+}
+
+.layout{
+    display:inline-block;
+    position: relative;
+}
+
+.layout_content{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    left:30px;
+
+}
+
+.a11{
+    text-align: center;
+    width:60px;
+    font-size: 18px;
+    
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+}
