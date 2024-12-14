@@ -144,8 +144,9 @@ textarea{
     position: relative;
 }
 
+
 .layout_content{
-    display: flex;
+    display: none;
     flex-direction: column;
     position:absolute;
     left:30px;
@@ -161,3 +162,9 @@ textarea{
     background-color: #ffffff;
     border: 1px solid black;
 }
+
+.layout:hover .layout_content{
+        display:flex;
+    }
+
+ 
