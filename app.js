@@ -88,3 +88,57 @@ document.getElementById("btn").addEventListener("click",run);
 // }
 
 // setInterval(autoCall, 40000);
+
+
+function left(){
+
+    let x=document.getElementById("box");
+    Object.assign(x.style,{
+       
+    });
+    
+    let p = document.getElementById("box");
+    p.style.gridTemplateColumns = "0.3fr 1fr";
+    
+    let c = document.getElementById("container");
+    c.style.display = "flex";
+    c.style.width = "90%";
+    c.style.flexDirection = "column";
+
+    let a1=document.getElementById("area1");
+    a1.style.height="22vh";
+    a1.style.width="100%";
+
+
+    let a2=document.getElementById("area2");
+    a2.style.height="22vh";
+    a2.style.width="100%";
+
+    let a3=document.getElementById("area3");
+    a3.style.height="22vh";
+    a3.style.width="100%";
+
+    let f=document.getElementById("iframe");
+    f.style.height="95%";
+    
+    let h=document.getElementById("html1");
+    h.style.height="30px";
+
+    let cs=document.getElementById("css1");
+    cs.style.height="30px";
+
+    let js=document.getElementById("js1");
+    js.style.height="30px";
+
+   
+}
+
+
+
+function right(){
+    console.log("Right");
+}
+
+function medium(){
+    console.log("Medium");
+}

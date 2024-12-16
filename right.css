@@ -2,7 +2,7 @@ body{
     background-color:black;
 }
 
-.box{
+#box{
     display: grid;
     grid-template-columns:1fr 1fr 0.4 0.4fr;
 }
@@ -10,7 +10,7 @@ body{
 
 
 
-.container{
+#container{
     grid-column: 3/4;
     display:flex;
     width:90%;
