@@ -4,7 +4,7 @@ body{
 
 .box{
     display: grid;
-    grid-template-rows: 0.1fr .03fr 2fr;
+    grid-template-rows:.03fr 2fr;
 
 }
 
@@ -14,7 +14,6 @@ body{
 .container{
     display:grid;
     width:100%;
-   
     grid-template-columns: 1fr 1fr 1fr;
     gap:20px;
     justify-content: center;
@@ -110,7 +109,7 @@ textarea{
         font-size: 18px;
     }
 
-    .frame{
+    .ifram{
         height:100vh;
     }
     
@@ -255,3 +254,10 @@ textarea{
  #area3:focus {
     border:3px solid aquamarine;
  }
+
+
+ 
+
+ /* .box
+ .container
+ .ifram */
