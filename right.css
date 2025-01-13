@@ -7,9 +7,6 @@ body{
     grid-template-columns:1fr 1fr 0.4 0.4fr;
 }
 
-
-
-
 #container{
     grid-column: 3/4;
     display:flex;
@@ -19,15 +16,11 @@ body{
     justify-content: center;
     border:2px solid black;
   
-    
-
 }
 .main{
     display:block;
     align-items: center;
 }
-
-
 
 .b1{
     background-color: rgb(199, 211, 221);
@@ -37,8 +30,6 @@ body{
     border-radius: 5%;
     
 }
-
-
 
 h3{
 text-decoration:bold;
@@ -73,12 +64,6 @@ textarea{
 }
 
 
-
-
-
-
-
-
 @media (max-width:500px) {
     .container{
         display:flex;
@@ -89,7 +74,6 @@ textarea{
      
     
     }
-
 
     .b1{
         background-color: rgb(199, 211, 221);
@@ -109,7 +93,6 @@ textarea{
         height: 300vh;
 
     }
-
 
     textarea{
         font-size: 18px;
