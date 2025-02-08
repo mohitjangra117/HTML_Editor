@@ -8,7 +8,6 @@ body{
 
 }
 
-
 #container{
     display:flex;
     width:90%;
@@ -17,15 +16,11 @@ body{
     justify-content: center;
     border:2px solid black;
   
-    
-
 }
 .main{
     display:block;
     align-items: center;
 }
-
-
 
 .b1{
     background-color: rgb(199, 211, 221);
@@ -35,8 +30,6 @@ body{
     border-radius: 5%;
     
 }
-
-
 
 h3{
 text-decoration:bold;
@@ -51,8 +44,6 @@ textarea{
 
 }
 
-
-
 #iframe {
     width: 100%;                   
     height: 95%;                   
@@ -64,13 +55,6 @@ textarea{
     
 }
 
-
-
-
-
-
-
-
 @media (max-width:500px) {
     .container{
         display:flex;
@@ -79,9 +63,7 @@ textarea{
         background-color: aquamarine;
      flex-direction: column;   
      
-    
     }
-
 
     .b1{
         background-color: rgb(199, 211, 221);
@@ -94,7 +76,6 @@ textarea{
         
     }
 
-    
     .outerbox{
         display: flex;
         flex-direction: column;
@@ -185,7 +166,6 @@ textarea{
    
     }
 
-
     .html{
         display:flex;
     }
@@ -252,5 +232,3 @@ textarea{
  #area3:focus {
     border:3px solid aquamarine;
  }
-
-

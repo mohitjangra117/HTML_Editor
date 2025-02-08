@@ -29,8 +29,6 @@ let h3=h2.getElementById("style");
  
 }
 
-
-
 function copy_js(){
     let content=document.getElementById("area3").value;
     return content;
@@ -48,9 +46,6 @@ let h3=h2.createElement("script");
  
 }
 
-
-
-
 // function js(){
 //     let iframe = document.getElementById("iframe");
 //     let iframeDoc = iframe.contentDocument || iframe.contentWindow.document; // Ensure compatibility
@@ -66,18 +61,11 @@ let h3=h2.createElement("script");
 // }
 
 
-
-
-
-
 function run(){
     html();
     css();
     js();
 }
-
-
-
 
 document.getElementById("btn").addEventListener("click",run);
 
@@ -128,12 +116,8 @@ function left(){
     cs.style.height="30px";
 
     let js=document.getElementById("js1");
-    js.style.height="30px";
-
-   
+    js.style.height="30px";   
 }
-
-
 
 function right(){
     console.log("Right");
